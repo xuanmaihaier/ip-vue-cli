@@ -1,0 +1,27 @@
+{
+  "name": "ip-vue2-cli",
+  "version": "1.0.1",
+  "description": "逸曜vue2项目前端脚手架",
+  "author": {
+    "name": "youngDo",
+    "email": "xuanmaihaier@163.com"
+  },
+  "license": "ISC",
+  "bin": "./bin/cli.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "ora": "^5.2.0"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "ip-vue2-cli",
+    "cli",
+    "脚手架"
+  ]
+}
