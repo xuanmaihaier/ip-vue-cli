@@ -41,7 +41,7 @@ program
       spinner.start();
       try {
         await download(
-          "direct:http://gitlab/frontend/ip-vue2-admin.git", // 这里是随便填的笔主的一个开源项目地址
+          "direct:http://gitlab/frontend/ip-vue2-admin.git",
           appName,
           { clone: true }
         );
@@ -57,7 +57,7 @@ program
             yarn start
           `);
       } catch (error) {
-        log(`下载失败`, error);
+        log('下载失败', error.message || error.stack);
         spinner.stop();
       }
     }
