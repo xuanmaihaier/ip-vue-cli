@@ -41,7 +41,7 @@ program
       spinner.start();
       try {
         await download(
-          "direct:https://github.com/xuanmaihaier/ip-vue2-admin.git", // 这里是随便填的笔主的一个开源项目地址
+          "direct:http://gitlab/frontend/ip-vue2-admin.git", // 这里是随便填的笔主的一个开源项目地址
           appName,
           { clone: true }
         );
