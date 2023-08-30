@@ -41,7 +41,7 @@ program
       spinner.start();
       try {
         await download(
-          "direct:http://gitlab/frontend/ip-vue2-admin.git",
+          "direct:http://gitlab/web-local-project/ip-vue2-admin.git",
           appName,
           { clone: true }
         );
