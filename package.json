@@ -1,7 +1,7 @@
 {
-  "name": "ip-vue2-cli",
-  "version": "1.0.3",
-  "description": "逸曜vue2项目前端脚手架",
+  "name": "ip-vue-cli",
+  "version": "1.0.2",
+  "description": "逸曜vue项目前端脚手架",
   "author": {
     "name": "youngDo",
     "email": "xuanmaihaier@163.com"
@@ -20,7 +20,7 @@
     "bin"
   ],
   "keywords": [
-    "ip-vue2-cli",
+    "ip-vue-cli",
     "cli",
     "脚手架"
   ]

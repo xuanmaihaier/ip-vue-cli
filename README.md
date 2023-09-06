@@ -1,4 +1,5 @@
-# ip-vue2-cli
+# ip-vue-cli
 
-# npm i ip-vue2-cli -g
-# ip-vue2-cli create [appname]
+# 安装 npm i ip-vue-cli -g
+# 创建项目 ip-vue-cli create [appname]
+# 发布 npm publish
