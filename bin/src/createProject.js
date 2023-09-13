@@ -7,6 +7,7 @@ const spinner = ora("loading");
 const download = promisify(require("download-git-repo"));
 const fs = require("fs");
 const envConfigGenerator = require("./modules/envConfigGenerator/index"); 
+const generateGitignoreFile = require("./modules/gitignoreConfig/index"); 
 
 // Helper function for logging
 const log = (content) => console.log(chalk.blue(content));
@@ -29,8 +30,12 @@ async function createVue2Project(appName) {
     await download(repoUrl, appName, { clone: true });
     
     // Generate and write environment variable files
+
+    // 创建环境变量
     envConfigGenerator(appName);
-    
+    // 创建排除文件
+    generateGitignoreFile(appName);
+
     spinner.succeed("下载完成");
 
     log(`

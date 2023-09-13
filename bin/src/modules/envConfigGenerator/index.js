@@ -7,7 +7,6 @@ module.exports = function generateEnvFiles(appName) {
     development: {
       ENV: '"development"',
       VUE_APP_BASE_API: '"/dev-api"',
-      VUE_APP_BASE_NAME: '"/"',
       VUE_CLI_BABEL_TRANSPILE_MODULES: true
     },
     production: {
